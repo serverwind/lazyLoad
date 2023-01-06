@@ -1,4 +1,5 @@
-var myImages  = document.querySelectorAll('img');
+var myImages = [...document.getElementsByTagName('img')];
+console.log(myImages)
 
 document.addEventListener('scroll', function () {
     for (i=0; i<myImages.length; i++) {
@@ -12,6 +13,8 @@ document.addEventListener('scroll', function () {
         thisImage != null) //dont touch images without 'data-src'
         {
             myImages[i].setAttribute('src', thisImage);
+            myImages.shift()
+            console.log(myImages)
             break;
         }
     }
