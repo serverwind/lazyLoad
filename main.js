@@ -1,7 +1,6 @@
 var myImages = [...document.getElementsByTagName('img')];
-console.log(myImages)
 
-document.addEventListener('scroll', function () {
+document.addEventListener('scroll', function lazyLoad () {
     for (i=0; i<myImages.length; i++) {
         var imgPos = myImages[i].getBoundingClientRect();
         var thisImage = myImages[i].getAttribute('data-src');
@@ -14,9 +13,12 @@ document.addEventListener('scroll', function () {
         {
             myImages[i].setAttribute('src', thisImage);
             myImages.shift()
-            console.log(myImages)
             break;
-        }
+        }   
+    }
+
+    if (myImages.length == 0) {
+        document.removeEventListener('scroll', lazyLoad);
     }
 
 });
