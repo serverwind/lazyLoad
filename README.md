@@ -28,4 +28,6 @@ or compressed (minified) version:
 
 Thats all!
 
+<hr>
+
 Live example here: <a href='https://lestrangeqq.github.io/lazyLoad/'>https://lestrangeqq.github.io/lazyLoad/</a>
