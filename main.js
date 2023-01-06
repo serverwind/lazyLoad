@@ -1,4 +1,4 @@
-let myImages  = document.querySelectorAll('img');
+var myImages  = document.querySelectorAll('img');
 
 document.addEventListener('scroll', function () {
     for (i=0; i<myImages.length; i++) {
