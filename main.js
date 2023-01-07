@@ -13,7 +13,6 @@ document.addEventListener('scroll', function lazyLoad () {
         {
             myImages[i].setAttribute('src', thisImage);
             myImages.splice(i, 1);
-            console.log(myImages)
             break;
         }   
     }
