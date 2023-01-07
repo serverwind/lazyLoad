@@ -12,7 +12,8 @@ document.addEventListener('scroll', function lazyLoad () {
         thisImage != null) //dont touch images without 'data-src'
         {
             myImages[i].setAttribute('src', thisImage);
-            myImages.shift()
+            myImages.splice(i, 1);
+            console.log(myImages)
             break;
         }   
     }
@@ -20,5 +21,4 @@ document.addEventListener('scroll', function lazyLoad () {
     if (myImages.length == 0) {
         document.removeEventListener('scroll', lazyLoad);
     }
-
 });
