@@ -20,11 +20,11 @@ Change <i>src</i> to <i>data-src</i>, so it will look like:
 
 Now connect my script to your page with this image:
 
-<code>&lt;script src='https://cdn.jsdelivr.net/gh/lestrangeqq/lazyLoad@master/main.js' &gt;&lt;/script&gt;</code>
+<code>&lt;script src='https://cdn.jsdelivr.net/gh/lestrangeqq/lazyLoad@latest/main.js' &gt;&lt;/script&gt;</code>
 
 or compressed (minified) version:
 
-<code>&lt;script src='https://cdn.jsdelivr.net/gh/lestrangeqq/lazyLoad@master/main.min.js' &gt;&lt;/script&gt;</code>
+<code>&lt;script src='https://cdn.jsdelivr.net/gh/lestrangeqq/lazyLoad@latest/main.min.js' &gt;&lt;/script&gt;</code>
 
 Thats all!
 
