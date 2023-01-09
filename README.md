@@ -24,7 +24,7 @@ Now connect my script to your page with this image:
 
 or compressed (minified) version:
 
-<code>&lt;script src='https://cdn.jsdelivr.net/gh/lestrangeqq/lazyLoad@latest/main.min.js' &gt;&lt;/script&gt;</code>
+<code>&lt;script src='https://cdn.jsdelivr.net/gh/lestrangeqq/lazyLoad@master/main.min.js' &gt;&lt;/script&gt;</code>
 
 Thats all!
 
