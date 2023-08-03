@@ -20,14 +20,14 @@ Change <i>src</i> to <i>data-src</i>, so it will look like:
 
 Now connect my script to your page with this image:
 
-<code>&lt;script src='https://cdn.jsdelivr.net/gh/lestrangeqq/lazyLoad@latest/main.js' &gt;&lt;/script&gt;</code>
+<code>&lt;script src='https://cdn.jsdelivr.net/gh/serverwind/lazyLoad@latest/main.js' &gt;&lt;/script&gt;</code>
 
 or compressed (minified) version:
 
-<code>&lt;script src='https://cdn.jsdelivr.net/gh/lestrangeqq/lazyLoad@master/main.min.js' &gt;&lt;/script&gt;</code>
+<code>&lt;script src='https://cdn.jsdelivr.net/gh/serverwind/lazyLoad@master/main.min.js' &gt;&lt;/script&gt;</code>
 
 Thats all!
 
 <hr>
 
-Live example here: <a href='https://lestrangeqq.github.io/lazyLoad/'>https://lestrangeqq.github.io/lazyLoad/</a>
+Live example here: <a href='https://serverwind.github.io/lazyLoad/'>https://serverwind.github.io/lazyLoad/</a>
