@@ -1,33 +1,9 @@
-## LAZY-LOAD Images
+# 🚀 Lazy Load Images
 
-This is very simple script, what make images to load only when they appear in your browser viewport. Why it's important you can read <a href='https://web.dev/browser-level-image-lazy-loading/'>here</a>.
+This project has been created for simple sites, or pages, where you just need to lazy-load static images.
 
-<b>Advantages:</b>
+It's pretty simple script (0.5 kb).
 
-1. Script is very small (<1 kb).
-2. Script written on Vanilla Javascript (you don't need jquery or something else).
-3. It works! :)
+---
 
-<b>Setup:</b>
-
-Let's say you have image:
-
-<code>&lt;img src='myCat.jpg'&gt;</code>
-
-Change <i>src</i> to <i>data-src</i>, so it will look like:
-
-<code>&lt;img data-src='myCat.jpg'&gt;</code>
-
-Now connect my script to your page with this image:
-
-<code>&lt;script src='https://cdn.jsdelivr.net/gh/serverwind/lazyLoad@latest/main.js' &gt;&lt;/script&gt;</code>
-
-or compressed (minified) version:
-
-<code>&lt;script src='https://cdn.jsdelivr.net/gh/serverwind/lazyLoad@master/main.min.js' &gt;&lt;/script&gt;</code>
-
-Thats all!
-
-<hr>
-
-Live example here: <a href='https://serverwind.github.io/lazyLoad/'>https://serverwind.github.io/lazyLoad/</a>
+Add _lazyload.min.js_ from /dist/scripts/ to your project, connect it, and you are done.
