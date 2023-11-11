@@ -8,9 +8,7 @@ This project has been created for simple sites, or pages, where you just need to
 
 ---
 
-<code>
-  Add _lazyload.min.js_ from /dist/scripts/ to your project, connect it, and you are done.
-</code>
+<code> Add _lazyload.min.js_ from /dist/scripts/ to your project, connect it, and you are done. </code>
 
 ---
 
