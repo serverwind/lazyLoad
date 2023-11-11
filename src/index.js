@@ -1,8 +1,5 @@
 import "simpledotcss";
 
-import Img1 from "./img/img1.jpg";
-import Img2 from "./img/img2.jpg";
-
 var myImages = [...document.getElementsByTagName("img")];
 
 document.addEventListener("scroll", function lazyLoad() {
