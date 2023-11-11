@@ -12,7 +12,7 @@ This project has been created for simple sites, or pages, where you just need to
 
 ---
 
-🖥️ Demo: <a href="/dist/">Example</a>
+🖥️ Demo: <a href="/lazyLoad/dist/">Example</a>
 
 ---
 
